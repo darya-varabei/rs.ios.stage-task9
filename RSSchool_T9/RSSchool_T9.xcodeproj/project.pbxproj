@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2BB9E75C26AB605700112651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9E75B26AB605700112651 /* AppDelegate.swift */; };
 		2BB9E75E26AB605700112651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9E75D26AB605700112651 /* SceneDelegate.swift */; };
-		2BB9E76326AB605700112651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9E76126AB605700112651 /* Main.storyboard */; };
 		2BB9E76526AB605900112651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9E76426AB605900112651 /* Assets.xcassets */; };
 		2BB9E76826AB605900112651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9E76626AB605900112651 /* LaunchScreen.storyboard */; };
 		2BB9F29126ADFAF100F43852 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9F29026ADFAF100F43852 /* Data.swift */; };
@@ -25,13 +24,29 @@
 		2BB9F30E26AF5FA900F43852 /* story-4-path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9F30D26AF5FA900F43852 /* story-4-path.swift */; };
 		2BB9F31026AF5FB300F43852 /* s4-text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9F30F26AF5FB300F43852 /* s4-text.txt */; };
 		2BB9F31226AF5FBE00F43852 /* s4-title.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9F31126AF5FBE00F43852 /* s4-title.txt */; };
+		D506EDF426B9C01000CA5F62 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D506EDF326B9C01000CA5F62 /* GalleryCell.swift */; };
+		D50A67A026B1668600FE7D9D /* Rockwell-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50A679F26B1668600FE7D9D /* Rockwell-Regular.ttf */; };
+		D50A67A326B1668D00FE7D9D /* Rockwell-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50A67A226B1668D00FE7D9D /* Rockwell-Bold.ttf */; };
+		D520D6F626B71E8B00DF8D4B /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D520D6F526B71E8B00DF8D4B /* ItemInfoViewController.swift */; };
+		D52B9ADC26B76D16007B5AF9 /* DrawingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B9ADB26B76D16007B5AF9 /* DrawingsViewController.swift */; };
+		D54D5B3A26B88A4B002CABB4 /* ToggleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54D5B3926B88A4B002CABB4 /* ToggleViewController.m */; };
+		D561811026B4CBDA000A1D22 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D561810F26B4CBDA000A1D22 /* TabBarViewController.swift */; };
+		D561811326B4CCDB000A1D22 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D561811226B4CCDB000A1D22 /* MainCollectionViewController.swift */; };
+		D561811626B4CCF4000A1D22 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D561811526B4CCF4000A1D22 /* ItemCollectionViewCell.swift */; };
+		D561811926B4CD02000A1D22 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D561811826B4CD02000A1D22 /* Item.swift */; };
+		D58D367326B8A59800D1AE17 /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58D367226B8A59800D1AE17 /* NaviViewController.m */; };
+		D5B82A2026B6AD0600DCD36A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B82A1F26B6AD0600DCD36A /* TableViewController.m */; };
+		D5B82A2426B6B88200DCD36A /* DrawingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B82A2326B6B88200DCD36A /* DrawingSettings.swift */; };
+		D5C34C2D26B5949700C7B0E9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C34C2C26B5949700C7B0E9 /* SettingsViewController.m */; };
+		D5C34C3026B59C3300C7B0E9 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C34C2F26B59C3300C7B0E9 /* ItemViewModel.swift */; };
+		D5C34C3726B5F6E000C7B0E9 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C34C3626B5F6E000C7B0E9 /* ColorsViewController.m */; };
+		D5DCB70426BAA65600BD760A /* PhotoModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DCB70326BAA65600BD760A /* PhotoModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BB9E75826AB605700112651 /* RSSchool_T9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB9E75B26AB605700112651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BB9E75D26AB605700112651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BB9E76226AB605700112651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BB9E76426AB605900112651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BB9E76726AB605900112651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BB9E76926AB605900112651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +63,29 @@
 		2BB9F30D26AF5FA900F43852 /* story-4-path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "story-4-path.swift"; sourceTree = "<group>"; };
 		2BB9F30F26AF5FB300F43852 /* s4-text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "s4-text.txt"; sourceTree = "<group>"; };
 		2BB9F31126AF5FBE00F43852 /* s4-title.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "s4-title.txt"; sourceTree = "<group>"; };
+		D506EDF326B9C01000CA5F62 /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		D50A679F26B1668600FE7D9D /* Rockwell-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rockwell-Regular.ttf"; sourceTree = "<group>"; };
+		D50A67A226B1668D00FE7D9D /* Rockwell-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rockwell-Bold.ttf"; sourceTree = "<group>"; };
+		D520D6F526B71E8B00DF8D4B /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		D52B9ADB26B76D16007B5AF9 /* DrawingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingsViewController.swift; sourceTree = "<group>"; };
+		D54D5B3826B88A4B002CABB4 /* ToggleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToggleViewController.h; sourceTree = "<group>"; };
+		D54D5B3926B88A4B002CABB4 /* ToggleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToggleViewController.m; sourceTree = "<group>"; };
+		D561810F26B4CBDA000A1D22 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D561811226B4CCDB000A1D22 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		D561811526B4CCF4000A1D22 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		D561811826B4CD02000A1D22 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D58D367126B8A59800D1AE17 /* NaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		D58D367226B8A59800D1AE17 /* NaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		D5B82A1E26B6AD0600DCD36A /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D5B82A1F26B6AD0600DCD36A /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D5B82A2326B6B88200DCD36A /* DrawingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSettings.swift; sourceTree = "<group>"; };
+		D5C34C2B26B5949600C7B0E9 /* RSSchool_T9-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSchool_T9-Bridging-Header.h"; sourceTree = "<group>"; };
+		D5C34C2C26B5949700C7B0E9 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D5C34C2F26B59C3300C7B0E9 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		D5C34C3326B5F46A00C7B0E9 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D5C34C3626B5F6E000C7B0E9 /* ColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		D5C34C3A26B5F71900C7B0E9 /* ColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		D5DCB70326BAA65600BD760A /* PhotoModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +121,15 @@
 				2BB9F28F26ADFAEB00F43852 /* Data */,
 				2BB9E75B26AB605700112651 /* AppDelegate.swift */,
 				2BB9E75D26AB605700112651 /* SceneDelegate.swift */,
-				2BB9E76126AB605700112651 /* Main.storyboard */,
+				D5C34C3D26B5FA6600C7B0E9 /* Item MVM */,
+				D5C34C3C26B5FA4A00C7B0E9 /* ObjC-Modules */,
+				D5C34C3E26B5FAAB00C7B0E9 /* Fonts */,
+				D5C34C3F26B5FAC700C7B0E9 /* Collection */,
+				D5B05C5526B843C600F8CF49 /* ItemInfo */,
 				2BB9E76426AB605900112651 /* Assets.xcassets */,
 				2BB9E76626AB605900112651 /* LaunchScreen.storyboard */,
 				2BB9E76926AB605900112651 /* Info.plist */,
+				D5C34C2B26B5949600C7B0E9 /* RSSchool_T9-Bridging-Header.h */,
 			);
 			path = RSSchool_T9;
 			sourceTree = "<group>";
@@ -151,6 +194,63 @@
 			path = "story-4";
 			sourceTree = "<group>";
 		};
+		D5B05C5526B843C600F8CF49 /* ItemInfo */ = {
+			isa = PBXGroup;
+			children = (
+				D520D6F526B71E8B00DF8D4B /* ItemInfoViewController.swift */,
+				D5DCB70326BAA65600BD760A /* PhotoModalView.swift */,
+				D506EDF326B9C01000CA5F62 /* GalleryCell.swift */,
+				D52B9ADB26B76D16007B5AF9 /* DrawingsViewController.swift */,
+			);
+			path = ItemInfo;
+			sourceTree = "<group>";
+		};
+		D5C34C3C26B5FA4A00C7B0E9 /* ObjC-Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D5C34C3326B5F46A00C7B0E9 /* SettingViewController.h */,
+				D5C34C2C26B5949700C7B0E9 /* SettingsViewController.m */,
+				D58D367126B8A59800D1AE17 /* NaviViewController.h */,
+				D58D367226B8A59800D1AE17 /* NaviViewController.m */,
+				D54D5B3826B88A4B002CABB4 /* ToggleViewController.h */,
+				D54D5B3926B88A4B002CABB4 /* ToggleViewController.m */,
+				D5B82A1E26B6AD0600DCD36A /* TableViewController.h */,
+				D5B82A1F26B6AD0600DCD36A /* TableViewController.m */,
+				D5C34C3A26B5F71900C7B0E9 /* ColorsViewController.h */,
+				D5C34C3626B5F6E000C7B0E9 /* ColorsViewController.m */,
+			);
+			path = "ObjC-Modules";
+			sourceTree = "<group>";
+		};
+		D5C34C3D26B5FA6600C7B0E9 /* Item MVM */ = {
+			isa = PBXGroup;
+			children = (
+				D5C34C2F26B59C3300C7B0E9 /* ItemViewModel.swift */,
+				D5B82A2326B6B88200DCD36A /* DrawingSettings.swift */,
+				D561811826B4CD02000A1D22 /* Item.swift */,
+			);
+			path = "Item MVM";
+			sourceTree = "<group>";
+		};
+		D5C34C3E26B5FAAB00C7B0E9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D50A67A226B1668D00FE7D9D /* Rockwell-Bold.ttf */,
+				D50A679F26B1668600FE7D9D /* Rockwell-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D5C34C3F26B5FAC700C7B0E9 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				D561810F26B4CBDA000A1D22 /* TabBarViewController.swift */,
+				D561811226B4CCDB000A1D22 /* MainCollectionViewController.swift */,
+				D561811526B4CCF4000A1D22 /* ItemCollectionViewCell.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,7 +284,7 @@
 				TargetAttributes = {
 					2BB9E75726AB605700112651 = {
 						CreatedOnToolsVersion = 12.5.1;
-						LastSwiftMigration = 1250;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -213,6 +313,7 @@
 			files = (
 				2BB9E76826AB605900112651 /* LaunchScreen.storyboard in Resources */,
 				2BB9F30726AF5D9D00F43852 /* s3-text.txt in Resources */,
+				D50A67A326B1668D00FE7D9D /* Rockwell-Bold.ttf in Resources */,
 				2BB9F30926AF5DAF00F43852 /* s3-title.txt in Resources */,
 				2BB9F31226AF5FBE00F43852 /* s4-title.txt in Resources */,
 				2BB9F29526AE01A300F43852 /* s1-title.txt in Resources */,
@@ -220,8 +321,8 @@
 				2BB9F2FE26AF556600F43852 /* s2-title.txt in Resources */,
 				2BB9E76526AB605900112651 /* Assets.xcassets in Resources */,
 				2BB9F30226AF57B500F43852 /* s2-text.txt in Resources */,
-				2BB9E76326AB605700112651 /* Main.storyboard in Resources */,
 				2BB9F29726AE01B800F43852 /* s1-text.txt in Resources */,
+				D50A67A026B1668600FE7D9D /* Rockwell-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,27 +333,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C34C3026B59C3300C7B0E9 /* ItemViewModel.swift in Sources */,
+				D506EDF426B9C01000CA5F62 /* GalleryCell.swift in Sources */,
 				2BB9F30126AF557E00F43852 /* story-2-path.swift in Sources */,
 				2BB9E75C26AB605700112651 /* AppDelegate.swift in Sources */,
+				D52B9ADC26B76D16007B5AF9 /* DrawingsViewController.swift in Sources */,
 				2BB9F30B26AF5EEC00F43852 /* story-3-path.swift in Sources */,
+				D5C34C2D26B5949700C7B0E9 /* SettingsViewController.m in Sources */,
+				D561811026B4CBDA000A1D22 /* TabBarViewController.swift in Sources */,
+				D520D6F626B71E8B00DF8D4B /* ItemInfoViewController.swift in Sources */,
+				D58D367326B8A59800D1AE17 /* NaviViewController.m in Sources */,
+				D561811326B4CCDB000A1D22 /* MainCollectionViewController.swift in Sources */,
+				D561811626B4CCF4000A1D22 /* ItemCollectionViewCell.swift in Sources */,
 				2BB9F29126ADFAF100F43852 /* Data.swift in Sources */,
 				2BB9F2EC26AF1F6200F43852 /* story-1-path.swift in Sources */,
+				D54D5B3A26B88A4B002CABB4 /* ToggleViewController.m in Sources */,
 				2BB9F30E26AF5FA900F43852 /* story-4-path.swift in Sources */,
+				D561811926B4CD02000A1D22 /* Item.swift in Sources */,
+				D5C34C3726B5F6E000C7B0E9 /* ColorsViewController.m in Sources */,
+				D5B82A2426B6B88200DCD36A /* DrawingSettings.swift in Sources */,
+				D5B82A2026B6AD0600DCD36A /* TableViewController.m in Sources */,
 				2BB9E75E26AB605700112651 /* SceneDelegate.swift in Sources */,
+				D5DCB70426BAA65600BD760A /* PhotoModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2BB9E76126AB605700112651 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BB9E76226AB605700112651 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2BB9E76626AB605900112651 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -315,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -370,7 +478,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -395,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.username.RSSchool-T9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T9/RSSchool_T9-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -416,6 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.username.RSSchool-T9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T9/RSSchool_T9-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
